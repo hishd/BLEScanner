@@ -14,6 +14,7 @@
 		FDACAF0B2B4C74AE00E862CB /* BLEScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDACAF0A2B4C74AE00E862CB /* BLEScannerTests.swift */; };
 		FDACAF152B4C74AE00E862CB /* BLEScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDACAF142B4C74AE00E862CB /* BLEScannerUITests.swift */; };
 		FDACAF172B4C74AE00E862CB /* BLEScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDACAF162B4C74AE00E862CB /* BLEScannerUITestsLaunchTests.swift */; };
+		FDACAF242B4C760F00E862CB /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDACAF232B4C760F00E862CB /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		FDACAF102B4C74AE00E862CB /* BLEScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDACAF142B4C74AE00E862CB /* BLEScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEScannerUITests.swift; sourceTree = "<group>"; };
 		FDACAF162B4C74AE00E862CB /* BLEScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDACAF232B4C760F00E862CB /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				FDACAEFB2B4C74AB00E862CB /* ContentView.swift */,
 				FDACAEFD2B4C74AE00E862CB /* Assets.xcassets */,
 				FDACAEFF2B4C74AE00E862CB /* Preview Content */,
+				FDACAF232B4C760F00E862CB /* ContentViewModel.swift */,
 			);
 			path = BLEScanner;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				FDACAEFC2B4C74AB00E862CB /* ContentView.swift in Sources */,
 				FDACAEFA2B4C74AB00E862CB /* BLEScannerApp.swift in Sources */,
+				FDACAF242B4C760F00E862CB /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
